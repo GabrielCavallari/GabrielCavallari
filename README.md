@@ -1,55 +1,112 @@
-# Olá! Sou o Gabriel Cavallari.
+# Gabriel Cavallari
 
-Sou Analista de Informática e estudante de Análise e Desenvolvimento de Sistemas no IFSP, com foco em **Business Intelligence, automação de processos, sistemas internos e IA aplicada**.
+**Desenvolvimento · Dados e BI · Automação**
 
-Gosto de construir soluções que saem do problema real do negócio: controles manuais, planilhas descentralizadas, falta de rastreabilidade, dificuldade de análise e processos que poderiam ser mais simples.
+Sou Analista de Informática e estudante de Análise e Desenvolvimento de Sistemas no IFSP. Gosto de transformar problemas do dia a dia em sistemas, análises e automações que tornam a informação mais organizada e os processos mais claros.
 
-Atualmente venho desenvolvendo projetos voltados para:
+Este perfil reúne projetos profissionais, estudos e experimentos pessoais — o que construí, as decisões por trás de cada solução e o que sigo aprendendo.
 
-- Sistemas internos para indústria
-- Business Intelligence e análise de dados
-- Automação de processos operacionais
-- Aplicações web com React, Node.js e PostgreSQL
-- APIs com FastAPI
-- IA aplicada a análise de documentos e apoio à decisão
-- Soluções digitais para negócios locais através da Base Exata
+## Trabalhos selecionados
 
----
+| Projeto | O que explora | Apresentação |
+| --- | --- | --- |
+| Apontamento de Produção | Registro operacional, planejamento e rastreabilidade | [Conhecer o projeto](#apontamento-de-produção) |
+| Marklt BI | Python, SQL e Power BI em um estudo de marketplace | [Conhecer o projeto](#marklt-bi) |
+| Bot de Relatórios | Tratamento de imagens e arquivamento com confirmação | [Conhecer o projeto](#bot-de-relatórios) |
+| Base Exata | Microaplicações com dados demonstrativos | [Conhecer o projeto](#base-exata) |
+| Contrato Risk AI | Documentos, RAG e revisão humana | [Conhecer o projeto](#contrato-risk-ai) |
+| Almoxarifado App | Requisições de conserto, prazos e documentos | [Conhecer o projeto](#almoxarifado-app) |
 
-## Projetos em destaque
-
-### Base Exata
-Solução voltada a presença digital, dados e automação para empresas locais.  
-Foco em organizar informações comerciais, identificar oportunidades e apoiar pequenos negócios na melhoria da presença online.
+Os projetos corporativos são apresentados de forma resumida. Seus repositórios, dados internos e ambientes não são disponibilizados por este perfil. Estudos com dados simulados estão identificados como tais.
 
 ### Apontamento de Produção
-Sistema web para registro e monitoramento de ordens de produção em ambiente industrial.
 
-**Stack:** React, Vite, Tailwind CSS, Node.js, Express, PostgreSQL, Prisma e Docker.
+**Sistema corporativo · código privado**
 
-### Almoxarifado App
-Sistema desktop para controle de requisições de conserto, fornecedores, status, geração de PDF e notificações automáticas.
+Sistema web para conectar o apontamento da operação ao acompanhamento da produção. Reúne registro em tablet, visões para PCP e liderança e histórico dos eventos.
 
-**Stack:** Python, CustomTkinter, SQLite, SQLAlchemy, fpdf2 e Windows Task Scheduler.
+- **Problema:** informações dispersas dificultam acompanhar ordens, etapas e paradas.
+- **Solução:** registro das atividades e acompanhamento por setor em um fluxo integrado.
+- **Decisões:** confirmação pelo servidor, acesso por perfil e preservação do histórico.
+- **Tecnologias:** React, Node.js, Express, PostgreSQL e Prisma.
+
+O fluxo de produção e os módulos de revisão/retrabalho têm escopos e liberações próprios. Código implementado não significa módulo ativado na operação.
+
+### Marklt BI
+
+**Estudo de caso · dados simulados**
+
+Pipeline de BI para explorar buscas, compras e tempo de venda em um marketplace.
+
+- **Preparação:** dados fictícios gerados com Python, Pandas e Faker.
+- **Transformação:** views SQL no BigQuery para organizar as análises.
+- **Apresentação:** dashboard no Power BI com composição visual no Figma.
+- **Aprendizado:** indicadores precisam de contexto; conclusões sobre dados simulados não comprovam comportamento de clientes reais.
+
+[Código e materiais públicos do estudo](https://github.com/GabrielCavallari/Marklt-BI-Analytics)
+
+### Bot de Relatórios
+
+**Automação corporativa · código privado**
+
+Fluxo pelo Telegram para receber imagens de documentos, melhorar sua legibilidade e organizar o arquivamento.
+
+- **Fluxo:** recebimento → tratamento → confirmação → PDF e arquivamento.
+- **Recursos:** correção de perspectiva e contraste, preservação do original e organização por protocolo.
+- **Confiabilidade:** fila recuperável e auditoria para lidar com falhas de armazenamento.
+- **Tecnologias:** Python, OpenCV e SQLite.
+
+O processamento documentado não utiliza OCR ou IA generativa.
+
+### Base Exata
+
+**Projeto pessoal · dados simulados**
+
+Laboratório de microaplicações para explorar cenários de vendas, estoque, produção e relatórios.
+
+- **Proposta:** tornar uma ideia compreensível por meio de uma aplicação demonstrável.
+- **Estrutura:** demos independentes, com bases de exemplo e documentação de execução.
+- **Tecnologias:** Python, Flask e SQLite.
+
+Neste perfil, a Base Exata aparece como parte do meu trabalho técnico e dos meus experimentos.
+
+[Código e demonstrações locais](https://github.com/GabrielCavallari/Base-Exata)
 
 ### Contrato Risk AI
-Plataforma de apoio à análise contratual com IA, matriz de riscos, RAG, revisão humana e rastreabilidade.
 
-**Stack:** Next.js, FastAPI, PostgreSQL, Qdrant, Gemini API e arquitetura modular de provedores.
+**Aplicação privada · análise assistida**
 
----
+Aplicação para organizar casos e documentos, consultar análises com IA e recuperar trechos de referência.
 
-## Tecnologias
+- **Recursos:** processamento de documentos, consulta com RAG, matriz de riscos e registro de revisão humana.
+- **Decisões:** manter referências ao documento de origem e separar a integração de IA das regras da aplicação.
+- **Tecnologias:** Next.js, FastAPI, PostgreSQL e Qdrant.
 
-**Dados e BI:** Power BI, SQL, Excel, ETL, Modelagem de Dados  
-**Backend:** Python, FastAPI, Node.js, Express  
-**Frontend:** React, Next.js, Tailwind CSS  
-**Banco de Dados:** PostgreSQL, SQLite, Prisma, SQLAlchemy  
-**IA e Automação:** Gemini API, RAG, processamento de documentos, automação operacional  
-**Ferramentas:** Git, GitHub, Docker, Apify, Google Sheets
+A análise é assistiva e pode conter erros. A avaliação e a decisão final permanecem humanas.
 
----
+### Almoxarifado App
 
-## Momento atual
+**Sistema corporativo · código privado**
 
-Estou evoluindo meus projetos para unir tecnologia e negócio: construir soluções simples, úteis e aplicáveis para empresas que precisam organizar dados, automatizar processos e tomar decisões com mais clareza.
+Aplicação desktop para organizar requisições de conserto e acompanhar seu ciclo de vida.
+
+- **Recursos:** controle de status e prazos, fornecedores, geração de PDF e notificações.
+- **Foco:** substituir controles dispersos por registros consultáveis e acompanhamento mais claro.
+- **Tecnologias:** Python, CustomTkinter, SQLite, SQLAlchemy e fpdf2.
+
+## Em desenvolvimento
+
+- **Base Exata Insights:** importação de planilhas e indicadores de vendas, com separação de dados por organização.
+- **Painel de Revisão:** organização de filas e acompanhamento visual de uma operação industrial.
+
+## Tecnologias presentes nos projetos
+
+| Área | Ferramentas |
+| --- | --- |
+| Sistemas web | React, Next.js, Node.js, Express, FastAPI |
+| Dados e BI | SQL, Power BI, Power Query, Python, Pandas, BigQuery |
+| Persistência | PostgreSQL, SQLite, Prisma, SQLAlchemy |
+| Automação e documentos | Python, OpenCV, geração de PDF, integrações |
+| IA aplicada | RAG, Qdrant, integração com modelos, revisão humana |
+
+Além dos projetos acima, mantenho exercícios e estudos neste GitHub como registro da minha evolução.
