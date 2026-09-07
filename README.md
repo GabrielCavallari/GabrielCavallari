@@ -2,6 +2,10 @@
 
 **Desenvolvimento · Dados e BI · Automação**
 
+### [Explore meu portfólio →](https://gabrielcavallari.github.io/)
+
+Conheça os projetos, seus fluxos, decisões e aprendizados em apresentações detalhadas.
+
 Sou Analista de Informática e estudante de Análise e Desenvolvimento de Sistemas no IFSP. Gosto de transformar problemas do dia a dia em sistemas, análises e automações que tornam a informação mais organizada e os processos mais claros.
 
 Este perfil reúne projetos profissionais, estudos e experimentos pessoais — o que construí, as decisões por trás de cada solução e o que sigo aprendendo.
